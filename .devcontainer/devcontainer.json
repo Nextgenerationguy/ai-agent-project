@@ -1,12 +1,12 @@
 {
-  "name": "AI Agent Dev Container",
+  "name": "AI Agent Project Dev Container",
+  "context": "..",
   "build": {
     "dockerfile": "Dockerfile"
   },
   "extensions": [
     "ms-python.python",
-    "ms-python.vscode-pylance",
-    "ms-azuretools.vscode-docker"
+    "ms-python.vscode-pylance"
   ],
   "settings": {
     "python.pythonPath": "/usr/local/bin/python"
