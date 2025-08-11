@@ -11,5 +11,5 @@
   "settings": {
     "python.pythonPath": "/usr/local/bin/python"
   },
-  "postCreateCommand": "pip install -r /workspace/requirements.txt"
+  "postCreateCommand": "pip install -r requirements.txt"
 }
